@@ -42,11 +42,11 @@ The tables are joined using `job_id` and `skill_id`.
 
 if you only a minute, review these:
 
-1. [01_Skill_demand.sql](/1_EDA/01_Skill_demand.sql) - Analysis with multi-table joins and CTEs
+1. [01_Skill_demand.sql](../2_Advance_EDA/01_Skill_demand.sql) - Analysis with aggregations and window functions
 
-2. [02_Salary.sql](/1_EDA/02_Skill_salary.sql) - Analysis with aggregations and window functions
+2. [02_Salary.sql](../2_Advance_EDA/02_salary.sql) - Analysis with aggregations and window functions
 
-3. [03_Skill_value.sql](/1_EDA/03_Skill_value.sql) - Analysis with ranking functions and median salary calculations
+3. [03_Skill_value.sql](../2_Advance_EDA/03_Skill_value.sql) - Analysis with ranking functions and median salary calculations
 
 ---
 ## Problem & Context
@@ -69,11 +69,11 @@ The data follows a star-schema warehouse design.
 
 ## Querry Structure
 
-1. **[01_Skill_demand.sql](/1_EDA/01_Skill_demand.sql)** - Identify the top 5 skills employers request most for each of the three data roles.
+1. **[01_Skill_demand.sql](/2_Advance_EDA/01_Skill_demand.sql)** - Identify the top 5 skills employers request most for each of the three data roles.
 
-2. **[02_Salary.sql](/1_EDA/02_Skill_salary.sql)** - Analyze the relationship between skills and salary for each of the three data roles.
+2. **[02_Salary.sql](/2_Advance_EDA/02_Skill_salary.sql)** - Analyze the relationship between skills and salary for each of the three data roles.
 
-3. **[03_Skill_value.sql](/1_EDA/03_Skill_value.sql)** - Identify the skills that provide the best balance between demand and salary for each of the three data roles.
+3. **[03_Skill_value.sql](/2_Advance_EDA/03_Skill_value.sql)** - Identify the skills that provide the best balance between demand and salary for each of the three data roles.
 
 ## Key Insight
 - **SQL and Python are foundational skills** across Data Analyst, Data Engineer, and Data Scientist roles in Canada.
