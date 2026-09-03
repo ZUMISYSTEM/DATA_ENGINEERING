@@ -1,5 +1,5 @@
 # Exploratory Data Analysis With SQL: Canadian Data Jobs SQL Analysis
-![Project 1 Overview](../Images\1_1_Project1_EDA.png)
+![Project 1 Overview](../Images/1_1_Project1_EDA.png)
 
 ## Project Overview
 
