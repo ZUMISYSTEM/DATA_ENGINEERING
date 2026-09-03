@@ -5,7 +5,7 @@
 
 This project explores the Canadian job market for three data roles:
 
-- Data Analyst
+- Data AnalystS
 - Data Engineer
 - Data Scientist
 
