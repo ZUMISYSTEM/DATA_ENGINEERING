@@ -411,7 +411,7 @@ FROM
 -- Analyse the median salary per type of skill
 WITH flat_skills AS (
     SELECT
-        job_id,
+        job_id,git
         job_title_short,
         salary_year_avg,
         UNNEST(skills_type).skill_type AS skill_type,
