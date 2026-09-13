@@ -44,4 +44,4 @@ COPY (
       AND jpf.job_posted_date >= DATE '2023-01-01'
       AND jpf.job_posted_date < DATE '2025-06-03'
       AND jpf.job_title_short = 'Data Analyst'
-) TO canada_data_analyst_job.csv' (FORMAT CSV, HEADER TRUE, DELIMITER ',');
+) TO canada_left_join_job.csv' (FORMAT CSV, HEADER TRUE, DELIMITER ',');
