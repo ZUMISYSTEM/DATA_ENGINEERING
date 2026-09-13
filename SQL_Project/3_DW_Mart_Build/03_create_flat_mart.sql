@@ -32,7 +32,7 @@ SELECT
     cd.company_id,
     cd.name AS company_name,
     ARRAY_AGG(
-        STRUCT_PACk(
+        STRUCT_PACK(
             type := sd.type,
             name := sd.skills
         )
