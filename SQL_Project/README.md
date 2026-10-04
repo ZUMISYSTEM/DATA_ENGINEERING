@@ -21,10 +21,3 @@ A Data Engineering project pipeline for Data Jobs Warehouse that transforms raw 
 
 **SKILLS:** Data Warehouse Design, Data Modeling, ETL Process, Data Mart Architecture, Data Engineering, SQL, DuckDB, DuckDB CLI, Master SQL Script, Git, GitHub, Google Cloud Storage
 
-### [4_Flat_to_Warehouse_Build/](4_Flat_to_Warehouse_Build/) - Flat to Warehouse Build
-
-![Data Pipeline Architecture](/SQL_Project/Images/2_1_Project2_Data_Pipeline.png)
-
- An End-to-End ETL process that transforms raw data into a denormalized star schema data warehouse and creates various specialized data marts optimized for specific use cases.
-
- **SKILLS:** Data Warehouse Design, Data Modeling, ETL Process, Data Mart Architecture, Data Engineering, SQL, DuckDB, DuckDB CLI, Master SQL Script, Git, GitHub, Google Cloud Storage
