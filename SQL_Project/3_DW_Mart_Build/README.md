@@ -35,8 +35,8 @@ The **data warehouse** uses a **star schema** that organizes data warehouse with
 ![Data Warehouse Structure](../Images/1_2_Data_Warehouse_Structure.png)
 
 - **SQL Files:**
-  - [`01_Create_tables_dw.sql`](../01_Create_tables_dw.sql) - Defines star schema with 4 tables
-  - [`02_load_schema_dw.sql`](../02_load_schema_dw.sql) -
+  - [`01_Create_tables_dw.sql`](/SQL_Project/3_DW_Mart_Build/01_Create_tables_dw.sql) - Defines star schema with 4 tables
+  - [`02_load_schema_dw.sql`](/SQL_Project/3_DW_Mart_Build/02_load_schema_dw.sql) - Loads data into the star schema
   - **Purpose:** The Star Schema serves as a single source of truth for data analysis and reporting.
   - **Grain:** One row per job posting in the `job_postings_fact` table.
 
@@ -46,7 +46,7 @@ The **flat data mart** is a denormalized table with all dimensions for ad-hoc qu
 ![Flat Data Mart](../Images/2_2_Project2_Flat_Data_Mart.png)
 
 - **SQL Files:**
-- [`03_create_flat_mart.sql`](../03_create_flat_mart.sql)
+- [`03_create_flat_mart.sql`](/SQL_Project/3_DW_Mart_Build/03_create_flat_mart.sql)
 - **Purpose:** One row per job posting with all dimensions joined
 - **Grain:** One row per job posting with all dimensions joined
 
@@ -57,7 +57,7 @@ The **skills data mart** supports **time-series analysis of skill demand,** usin
 ![Skills Data Mart](../Images/2_3_Project2_Skills_Data_Mart.png)
 
 - **SQL Files:**
-- [`04_create_skills_mart.sql`](../04_create_skills_mart.sql) - Time-series skills demand
+- [`04_create_skills_mart.sql`](/SQL_Project/3_DW_Mart_Build/04_create_skills_mart.sql) - Time-series skills demand
 - **Purpose:** Time-series skills analysis over time with additive measures
 - **Grain:** `skill_id` + `month_start_date` + `job_title_short`
 - **Key Features:** Stores **counts and sums** that can be re-aggregated across non-overlapping groups without double-counting.
@@ -69,8 +69,9 @@ The **priority roles data mart** tracks selected job roles, with incremental upd
 ![Priority Roles Data Mart](../Images/2_4_Project2_Priority_Data_Mart.png)
 
  **SQL Files:**
- - [`05_create_priority_mart.sql`](../05_create_priority_mart.sql) - Initial build of the priority roles and jobs snapshot tables
- - [`06_update_priority_mart.sql`](../06_update_priority_mart.sql) - **Incremental update using MERGE** of the priority roles and jobs snapshot tables
+ - [`05_create_priority_mart.sql`](/SQL_Project/3_DW_Mart_Build/05_create_priority_mart.sql) - Initial build of the priority roles and jobs snapshot tables
+ - [`06_update_priority_mart.sql`](/SQL_Project/3_DW_Mart_Build/06_update_priority_mart.sql) - **Incremental update using MERGE** of the priority roles and jobs snapshot tables
+
  - **Purpose:** Tracks selected job roles with incremental updates
  - **Grain:** One row per job posting with priority level assignment
  - **Key Features:** **MERGE operations** for incremental updates - demonstrates production-ready upsert patterns(INSERT, UPDATE, DELETE in single statement)
