@@ -18,3 +18,15 @@
 
 -- Step 6: Mart - Update priority roles mart
 .read 06_update_priority_mart.sql
+
+-- Step 7: Mother Duck deployment
+/*
+    - Create a new duckdb database
+    - duckdb md:
+    - CREATE DATABASE dw_marts;
+    - Verify the database was created
+    - .databases
+    - duckdb md: duckdb md.duckdb -c ".read build_dw_marts.sql"
+    - Verify the database was created
+    - .databases
+*/
