@@ -7,13 +7,19 @@ This is a portfolio of SQL Data Engineering projects that I have worked on to pr
 > click on the project name to view the project tools and technologies used.
 
 ## Projects
-### [1. EDA](2_Advance_EDA/) _ Exploratory Data Analysis
+### [1. Basic_EDA](1_Basic_EDA/) _ Exploratory Data Analysis
+
+![Project 1 Overview](/SQL_Project/Images/SQL_analysis.png)
+
+An SQL based data engineering  and exploratory data analysis (EDA) project designed to examine hiring trends, in-demand skills, salary patterns, and top employers for Data Science roles in Canada.
+
+### [2. Advance_EDA](2_Advance_EDA/) _ Exploratory Data Analysis
 
 ![Project 1 Overview](/SQL_Project/Images/1_1_Project1_EDA.png)
 
 A SQL Data Engineering and exploratory data analysis (EDA) project designed to examine job market trends, skill demand, and salary patterns across data-related roles in Canada.
 
-### [3_DW_Mart_Build/](3_DW_Mart_Build/) - Data Warehouse & Mart Build
+### [3. DW_Mart_Build/](3_DW_Mart_Build/) - Data Warehouse & Mart Build
 
 ![Data Pipeline Architecture](/SQL_Project/Images/2_1_Project2_Data_Pipeline.png)
 
